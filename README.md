@@ -32,3 +32,16 @@ The postal code zones were then clustered based on the Foursquare and criminal d
 Next, the rates of property and violent crime were summarized and visualized for each cluster using barplots.
 
 Clusters with lowest number of crimes were inspected for most frequent venues. Based on this data, an optimal place for relocation was selected.
+
+## Results
+
+There were 766 initial postal code zones. After elimination of zones too distant from the workplace, 57 remained. Rates of criminal offenses were available for 39 zones. These were clustered into 4 clusters. Two clusters (one postal code zone in each) were chosen for final selection of place for relocation, after dismissing other two clusters for high crime rates.
+
+## Discussion
+
+In this project, I have applied the skills of management of geospatial data, data manipulation and clustering in order to choose the optimal place for living. The resulting number of places to choose from was small, making the choice easier. This was probably possible due to clear setting of priorities, which may vary from person to person. Some may choose a place which is predominantly populated by people of their ethnic community. Others may wish to live very close to their workplace in order to get there on foot and avoid buying a car. Some people may need a more detailed elimination protocol that would include rent rates and proximity to public transport.
+The results were surprizing and did not resemble the conventional search that I have performed previously, by asking people about Boston area neighborhoods. I was then recommended a few rich neighborhoods. It is possible that people do not take into account safety data when making a decision on relocation. On the other hand, this data elimination protocol may err due to incomplete or outdated crime data (2013). Additionally, it is possible that despite some differences in crime rates between the postal code zones, the overall crime rates are relatively low, so that people feel equally safe in all zones.
+
+## Conclusions
+
+Application of Data Science skills enabled to choose by elimination an optimal place to live. It can be advantageous if we choose to rely on the algorithm in our choice. However, there is a danger in coming to a small number of options if we suspect that some basic assumptions are wrong. In this case it may be better to have a larger output  and continue manual search.
